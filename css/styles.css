@@ -47,7 +47,7 @@ a {
 }
 .header-link:hover, .header-link:focus, .header-link-addres:hover, .header-link-addres:focus{
     color: #404BBF;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration-thickness: 2px
 }
 
@@ -164,7 +164,6 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;  
     text-transform: capitalize;
-
 }
 .portfolio-item {
 }
