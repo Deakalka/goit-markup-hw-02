@@ -1,0 +1,209 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/*============ Header ============*/
+/* header{
+    display: flex;
+    height: 72px;
+    flex-shrink: 0;
+}
+.header-structure{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+} */
+.header-logo{
+    color: #2E2F42;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    font-family: 'Raleway', sans-serif;
+}
+.header-logo-span{
+    color: #4D5AE5;
+}
+.header-link{
+    color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.32px
+}
+.header-link-addres{
+    color: #434455;
+    font-weight: 400;
+    letter-spacing: 0.32px
+}
+.header-link:hover, .header-link:focus, .header-link-addres:hover, .header-link-addres:focus{
+    color: #404BBF;
+    text-decoration: underline;
+    text-decoration-thickness: 2px
+}
+
+
+/* ============ 1 section ============ */
+.first-section{
+    background-color: #2E2F42;
+    
+}
+.title-1{
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+.button{
+    /* display: inline-flex; */
+    /* padding: 16px 32px; */
+    /* align-items: flex-start; */
+    /* gap: 10px; */
+    /* border-radius: 4px; */
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+
+    color:#FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+.button:hover, .button:active{
+    border-radius: 4px;
+    background-color: #404BBF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ============ 2 section ============ */
+.hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* .section-2-structure{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+} */
+.title-2-section {
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;  
+}
+.text-2-section {
+    color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+}
+/* =========== 3 section ============= */
+.section-3-{
+    background-color: #F4F4FD;
+}
+.section-3-superior-heading{
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;  
+    text-transform: capitalize;
+}
+.title-3-section {
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.02em;  
+    /* text-align: center; */
+}
+.text-3-section {
+    color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    /* text-align: center; */
+}
+
+/* =========== 4 section ============= */
+.portfolio {
+}
+.portfolio-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;  
+    text-transform: capitalize;
+
+}
+.portfolio-item {
+}
+.portfolio-item-title {
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2; 
+    letter-spacing: 0.02em;  
+}
+.portfolio-item-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+}
+
+/* =========== Footer ============= */
+
+.footer{
+    background-color: #2E2F42;
+}
+.footer-logo{
+    color: #F4F4FD;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-span{
+    color: #4D5AE5;
+}
+.footer-text{
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
