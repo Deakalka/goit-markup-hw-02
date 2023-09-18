@@ -119,7 +119,6 @@ a {
     line-height: 1.11;
     letter-spacing: 0.02em;  
     text-transform: capitalize;
-    background-color: #FFFFFF
 }
 .title-third-section {
     color:#2E2F42;
@@ -127,7 +126,6 @@ a {
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em; 
-    background-color: #FFFFFF 
     /* text-align: center; */
 }
 .text-third-section {
